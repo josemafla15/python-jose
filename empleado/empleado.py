@@ -7,3 +7,29 @@ class empleado :
     """
     sexo = " "
     salario = 0 
+
+    def CambiarSalario(self, nuevoSalario) :
+        # Aqui va el codigo 
+        return 0 
+    
+
+    def CambiarEmpleado(self, nNombre, nApellido, nsexo, nsalario) :
+        # Aqui va el codigo 
+        return None 
+    
+    def ConsultarSalario(self): 
+        # Aqui va el codigo
+        return self.salario 
+    
+    def ConsultarNombre(self):
+        # Aqui va el codigo 
+        return self.nombre 
+    
+    def ConsultarApellido(self):
+        # Aqui va el codigo 
+        return self.apellido 
+    
+    def ConsultarNombreCompleto(self, Nombre, Apellido) :
+        # Aqui va el codigo 
+        return self.nombre + self.apellido 
+    
